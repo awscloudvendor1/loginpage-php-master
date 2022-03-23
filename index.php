@@ -85,7 +85,7 @@
                && !empty($_POST['password'])) {
 				
                if ($_POST['username'] == 'Devops' && 
-                  $_POST['password'] == '123456') {
+                  $_POST['password'] == '1234') {
                   $_SESSION['valid'] = true;
                   $_SESSION['timeout'] = time();
                   $_SESSION['username'] = 'tutorialspoint';
@@ -108,7 +108,7 @@
                name = "username" placeholder = "username = Devops" 
                required autofocus></br>
             <input type = "password" class = "form-control"
-               name = "password" placeholder = "password = 1234" required>
+               name = "password" placeholder = "password = 123456" required>
             <button class = "btn btn-lg btn-primary btn-block" type = "submit" 
                name = "login">Login</button>
          </form>
