@@ -85,7 +85,7 @@
                && !empty($_POST['password'])) {
 				
                if ($_POST['username'] == 'Devops' && 
-                  $_POST['password'] == '1234') {
+                  $_POST['password'] == '123456') {
                   $_SESSION['valid'] = true;
                   $_SESSION['timeout'] = time();
                   $_SESSION['username'] = 'tutorialspoint';
