@@ -108,7 +108,7 @@
                name = "username" placeholder = "username = Devops" 
                required autofocus></br>
             <input type = "password" class = "form-control"
-               name = "password" placeholder = "password = 12345678" required>
+               name = "password" placeholder = "password = MustRequired" required>
             <button class = "btn btn-lg btn-primary btn-block" type = "submit" 
                name = "login">Login</button>
          </form>
