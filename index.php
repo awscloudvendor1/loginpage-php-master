@@ -105,7 +105,7 @@
             ?>" method = "post">
             <h4 class = "form-signin-heading"><?php echo $msg; ?></h4>
             <input type = "text" class = "form-control" 
-               name = "username" placeholder = "username = Authprovide" 
+               name = "username" placeholder = "username = AUTHENTICATION" 
                required autofocus></br>
             <input type = "password" class = "form-control"
                name = "password" placeholder = "password = identitypls" required>
