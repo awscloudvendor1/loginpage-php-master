@@ -105,10 +105,10 @@
             ?>" method = "post">
             <h4 class = "form-signin-heading"><?php echo $msg; ?></h4>
             <input type = "text" class = "form-control" 
-               name = "username" placeholder = "username = UrName" 
+               name = "username" placeholder = "username = NamePlz" 
                required autofocus></br>
             <input type = "password" class = "form-control"
-               name = "password" placeholder = "password = AuthPls" required>
+               name = "password" placeholder = "password = TypePassword" required>
             <button class = "btn btn-lg btn-primary btn-block" type = "submit" 
                name = "login">Login</button>
          </form>
