@@ -108,7 +108,7 @@
                name = "username" placeholder = "username = Identityplz" 
                required autofocus></br>
             <input type = "password" class = "form-control"
-               name = "password" placeholder = "password = AuthHere" required>
+               name = "password" placeholder = "password = Authentication" required>
             <button class = "btn btn-lg btn-primary btn-block" type = "submit" 
                name = "login">Login</button>
          </form>
